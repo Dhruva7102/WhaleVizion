@@ -23,3 +23,7 @@ ipython_config.py
 __pycache__/
 *.py[cod]
 *$py.class
+
+SCAN-repo/datasets
+SCAN-repo/output
+
