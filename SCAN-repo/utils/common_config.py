@@ -51,6 +51,10 @@ def get_model(p, pretrain_path=None):
         elif p['train_db_name'] == 'stl-10':
             from models.resnet_stl import resnet18
             backbone = resnet18()
+            
+        elif p['train_db_name'] == 'whales':
+            from models.resnet_stl import resnet18
+            backbone = resnet18()
         
         else:
             raise NotImplementedError
